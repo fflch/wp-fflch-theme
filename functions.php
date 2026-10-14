@@ -481,46 +481,7 @@ add_shortcode('eventos', 'wp_fflch_theme_eventos_shortcode');
 function wp_fflch_theme_default_menu()
 {
     ?>
-    <ul class="menu">
-        <li class="menu-item-has-children">
-            <a href="<?php echo esc_url(home_url('/departamento')); ?>">Departamento</a>
-            <ul class="sub-menu">
-                <li><a href="<?php echo esc_url(home_url('/departamento/historico')); ?>">Histórico</a></li>
-                <li><a href="<?php echo esc_url(home_url('/departamento/estrutura')); ?>">Estrutura</a></li>
-                <li class="menu-item-has-children">
-                    <a href="<?php echo esc_url(home_url('/departamento/coordenacoes')); ?>">Coordenações</a>
-                    <ul class="sub-menu">
-                        <li><a href="<?php echo esc_url(home_url('/departamento/coordenacoes/graduacao')); ?>">Coordenação de Graduação</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/departamento/coordenacoes/pos-graduacao')); ?>">Coordenação de Pós-Graduação</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/departamento/coordenacoes/extensao')); ?>">Coordenação de Extensão</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li class="menu-item-has-children">
-            <a href="<?php echo esc_url(home_url('/graduacao')); ?>">Graduação</a>
-            <ul class="sub-menu">
-                <li><a href="<?php echo esc_url(home_url('/graduacao/curriculo')); ?>">Currículo</a></li>
-                <li><a href="<?php echo esc_url(home_url('/graduacao/disciplinas')); ?>">Disciplinas</a></li>
-                <li><a href="<?php echo esc_url(home_url('/graduacao/estagios')); ?>">Estágios</a></li>
-                <li><a href="<?php echo esc_url(home_url('/graduacao/intercambio')); ?>">Intercâmbio</a></li>
-            </ul>
-        </li>
-        <li><a href="<?php echo esc_url(home_url('/pos-graduacao')); ?>">Pós-Graduação</a></li>
-        <li class="menu-item-has-children">
-            <a href="<?php echo esc_url(home_url('/professores')); ?>">Professores</a>
-            <ul class="sub-menu">
-                <li><a href="<?php echo esc_url(home_url('/professores/efetivos')); ?>">Efetivos</a></li>
-                <li><a href="<?php echo esc_url(home_url('/professores/colaboradores')); ?>">Colaboradores</a></li>
-                <li><a href="<?php echo esc_url(home_url('/professores/visitantes')); ?>">Visitantes</a></li>
-            </ul>
-        </li>
-        <li><a href="<?php echo esc_url(home_url('/laboratorios')); ?>">Laboratórios</a></li>
-        <li><a href="<?php echo esc_url(home_url('/revistas')); ?>">Revistas</a></li>
-        <li><a href="<?php echo esc_url(home_url('/biblioteca')); ?>">Biblioteca</a></li>
-        <li><a href="<?php echo esc_url(home_url('/formularios')); ?>">Formulários</a></li>
-        <li><a href="<?php echo esc_url(home_url('/contatos')); ?>">Contatos</a></li>
-    </ul>
+    <br>
     <?php
 }
 
